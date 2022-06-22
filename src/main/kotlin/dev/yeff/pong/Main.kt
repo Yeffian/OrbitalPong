@@ -1,7 +1,7 @@
-package dev.yeff.orbital.example
+package dev.yeff.pong
 
 import dev.yeff.orbital.Game
-import dev.yeff.orbital.example.scenes.MainScene
+import dev.yeff.pong.scenes.MainScene
 import dev.yeff.orbital.math.Vector2f
 import dev.yeff.orbital.scenes.Scene
 
@@ -11,8 +11,8 @@ fun main(args: Array<String>) {
     )
 
     val game = Game(
-        Vector2f(700.0f, 700.0f),
-        "Hello World",
+        Vector2f(800.0f, 600.0f),
+        "Pong",
         scenes
     )
 

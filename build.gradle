@@ -3,7 +3,7 @@ plugins {
     id 'application'
 }
 
-group = 'dev.yeff.orbital.example'
+group = 'dev.yeff.pong'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -40,5 +40,5 @@ compileTestKotlin {
 }
 
 application {
-    mainClassName = 'dev.yeff.orbital.example.MainKt'
+    mainClassName = 'dev.yeff.pong.MainKt'
 }
